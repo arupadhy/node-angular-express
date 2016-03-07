@@ -3,13 +3,17 @@
 	<script type="text/javascript" src="./bower_components/angular/angular.js"></script>
 	<script type="text/javascript" src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 	<script type="text/javascript" src="./js/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
 </head>
 <body ng-app="nodeApp">
+
+<div class='header'></div>
 
 	<div ui-view>
 	<p>This is the main page returend from the node app--index.html</p>
 	<div>
 	<a ui-sref="page2">Show page2</a>
 	<a ui-sref="page1">Show page1</a>
+<div class='footer'></div>
 </body>
 </html>

@@ -1,0 +1,21 @@
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+body {
+	background: grey;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
